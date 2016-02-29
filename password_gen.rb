@@ -1,3 +1,5 @@
+#10桁のパスワードを発生させるプログラム
+
 def password_gen(size=8)
 	[*0..9, *'a'..'z', *'A'..'Z'].sample(size).join
 end
